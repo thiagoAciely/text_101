@@ -18,3 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6419529d273618e4da3e86f229e82024, type: 2}
   - {fileID: 11400000, guid: 46edcc498c30d604ba8f43c6b0bb4ad2, type: 2}
   - {fileID: 11400000, guid: dbb0510c71e39ea458a44c2a4d527e09, type: 2}
+  extrovertIntrovert: 1
+  intuitionSensation: 1
+  thinkingFeeling: 0
+  praticalJudicial: -1

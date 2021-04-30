@@ -14,6 +14,20 @@ public class State : ScriptableObject
 	[SerializeField]
 	private State[] nextStates;
 
+	[SerializeField]
+	[Range(-1, 1)]
+	private int extrovertIntrovert = 0;
+	[SerializeField]
+	[Range(-1, 1)]
+	private int intuitionSensation = 0;
+	[SerializeField]
+	[Range(-1, 1)]
+	private int thinkingFeeling = 0;
+	[SerializeField]
+	[Range(-1, 1)]
+	private int praticalJudicial = 0;
+
+
 	public string GetStory()
 	{
 		return this.stateText;
@@ -27,5 +41,11 @@ public class State : ScriptableObject
 	public State[] GetNext()
 	{
 		return this.nextStates;
+	}
+
+	public int[]  GetJung ()
+	{
+		int[] result = { extrovertIntrovert, intuitionSensation, thinkingFeeling, praticalJudicial };
+		return result;
 	}
 }

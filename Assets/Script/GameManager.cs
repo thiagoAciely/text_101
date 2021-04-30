@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     private Button[] _choiceButtons;
 
     private State _currentState;
+    public int[] _jungCount = { 0, 0, 0, 0 };
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
         _storyText.text = _currentState.GetStory();
         Debug.Log(nextState.GetTitle());
         SetButtons(nextState.GetNext());
+
     }
 
     void SetButtons(State[] choices)

@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006e6df39d2ef2d48b2ebd4c1f3bccbb, type: 3}
   m_Name: Parte2
   m_EditorClassIdentifier: 
-  stateText: Parte 2
-  stateTitle: Parte 2
+  stateText: "Z\xE9 gritou em plenos pum\xF5es pedindo ajuda. O general do exercito
+    aparece no beco e ajuda \xE9 a matar todos os inimigos"
+  stateTitle: Grita por Socorro
   nextStates:
   - {fileID: 11400000, guid: 46edcc498c30d604ba8f43c6b0bb4ad2, type: 2}
   - {fileID: 11400000, guid: 9f15d6098724cd74a8eae1a79e0c9c39, type: 2}
   - {fileID: 11400000, guid: dbb0510c71e39ea458a44c2a4d527e09, type: 2}
   - {fileID: 11400000, guid: e7a63cdcce54c3c4a89c105a2a816b68, type: 2}
+  extrovertIntrovert: 1
+  intuitionSensation: 0
+  thinkingFeeling: -1
+  praticalJudicial: 0

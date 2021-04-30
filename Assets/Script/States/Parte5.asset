@@ -16,3 +16,7 @@ MonoBehaviour:
   stateTitle: Parte 5
   nextStates:
   - {fileID: 11400000, guid: 6419529d273618e4da3e86f229e82024, type: 2}
+  extrovertIntrovert: -1
+  intuitionSensation: -1
+  thinkingFeeling: 1
+  praticalJudicial: 0
